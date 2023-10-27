@@ -1,0 +1,76 @@
+#one {
+  width: 100%;
+  height: 100%;
+}
+#one .wrap {
+  height: 600px;
+  display: grid;
+  grid-template-columns: 500px;
+  grid-template-rows: 100px 300px;
+  align-items: center;
+  justify-content: space-around;
+  padding-top: 50px;
+  margin-top: 0px;
+}
+#one .wrap h2 {
+  grid-column: 1 / span 2;
+  grid-row: 1;
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 40px;
+}
+#one div{
+  
+  margin-top: 200px;
+}
+#one .left {
+  grid-column: 1;
+  grid-row: 2 / span 1;
+}
+#one .left img {
+  
+}
+#one .right {
+  grid-column: 2;
+  grid-row: 2 / span 1;
+}
+#one .right img {
+  
+}
+#one article {
+  
+}
+#one article ul {
+  display: grid;
+  grid-template-columns: 110px 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  margin-top: 30px;
+  border: 1px solid #eee;
+}
+#one article ul .small {
+  width: 100px;
+  height: 100px;
+  display: block;
+  background-size: contain;
+  background-color: #eee;
+}
+#one article ul li{
+  
+}
+#one article ul li:nth-child(1){
+  grid-column: 1;
+  grid-row: 1 / span 2;
+}
+#one article .left1 .small{
+  background-image: url(../img/pom1.png);
+}
+#one article .left2 .small{
+  background-image: url(../img/pom2.png);
+}
+#one article .right1 .small{
+  background-image: url(../img/pe1.png);
+}
+#one article .right2 .small{
+  background-image: url(../img/pe2.png);
+}

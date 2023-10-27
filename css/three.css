@@ -1,0 +1,119 @@
+#three{
+  width: 100%;
+  margin-top: 100px;
+}
+#three .wrap{
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+#three .wrap h2{
+  font-size: 35px;
+  font-weight: bold;
+  margin-bottom: 45px;
+  margin-right: 835px; 
+}
+#three .wrap .review{
+  width: 1300px;
+}
+#three .wrap article{
+  display: flex;
+  justify-content: center;
+  width: 1300px;
+  gap: 25px;
+}
+#three .wrap article .photo{
+  width: 550px;
+  height: 350px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  position: relative;
+}
+#three .wrap article .photo1{
+  background-image: url(../img/three1.png);
+}
+#three .wrap article .photo2{
+  background-image: url(../img/three2.png);
+}
+#three .wrap article .photo3{
+  background-image: url(../img/three3.png);
+}
+#three .wrap article .photo4{
+  background-image: url(../img/three4.png);
+}
+#three .wrap article .photo5{
+  background-image: url(../img/three5.png);
+}
+#three .wrap article .photo6{
+  background-image: url(../img/three6.png);
+}
+#three .wrap article .photo::before{
+  content: "";
+  display: inline-block;
+  width: 150px;
+  height: 150px;
+  content: '';
+  position: absolute;
+  background-image: url(../img/carrot.png);
+  background-repeat: no-repeat;
+  left: -130px;
+  top: 200px;
+  animation-name: updown;
+  animation-duration: 1.5s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+@keyframes updown{
+  100%{
+    transform: translateY(-30px);
+  }
+}
+#three .wrap article nav{
+  
+}
+#three .wrap article nav h3{
+  font-size: 40px;
+  letter-spacing: -1px;
+  margin: 20px 0px;
+}
+#three .wrap article nav p{
+  font-size: 26px;
+  letter-spacing: -1px;
+} 
+#three .wrap article nav .customer{
+  font-size: 15px;
+  color: #828282;
+  margin-top: 30px;
+  line-height: 1.5;
+}
+#three .wrap article nav .star{
+  
+  margin-bottom: 50px;
+  margin-top: 10px;
+  color: #FFD926;
+}
+#three .wrap article nav .view{
+  font-size: 18px;
+  border: 1px solid;
+  padding: 10px 20px;
+  border-radius: 40px;
+}
+#three .wrap .review .slick-prev{
+  width: 90px;
+  height: 90px;
+  z-index: 1;
+  background-image: url(../img/left.png);
+  background-repeat: no-repeat;
+  left: 70px;
+}
+#three .wrap .review .slick-next{
+  width: 90px;
+  height: 90px;
+  z-index: 1;
+  background-image: url(../img/right.png);
+  background-repeat: no-repeat;
+  right: 70px;
+}

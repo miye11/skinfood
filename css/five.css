@@ -1,0 +1,93 @@
+footer{
+  
+}
+#five{
+  width: 100%;
+  margin-top: 100px;
+}
+#five .fiveback{
+  width: 100%;
+  background-image: url(../img/footer.png);
+}
+#five .wrap{  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 400px;
+}
+#five article{
+  margin-top: 100px;
+}
+#five .five1{
+
+}
+#five .five1 ul{
+  display: flex;
+  gap: 25px;
+  margin-bottom: 30px;
+}
+#five .five1 ul li{
+  border-right: 1px solid;
+  padding-right: 20px;
+}
+#five .five1 ul li:nth-child(6){
+  border: none;
+}
+#five .five1 ul li span{
+  font-weight: bold;
+  font-size: 20px;
+}
+#five .five1 p{
+  line-height: 2.2;
+  font-size: 12px;
+}
+#five .five2{
+  
+}
+#five .five2 ul{
+  display: flex;
+  gap: 30px;
+}
+#five .five2 ul li{
+  border: 1px solid;
+  padding: 5px 20px;
+}
+#five .five2 nav{
+  margin: 25px 0px;
+}
+#five .five2 nav h4{
+  line-height: 2;
+}
+#five .five2 nav h4 span{
+  font-size: 35px;
+}
+#five .five2 nav p{
+  line-height: 1.5;
+  font-size: 13px;
+}
+#five .five3{
+  position: relative;
+}
+#five .five3 ul{
+  display: flex;
+  position: absolute;
+  left: -10px;
+  bottom: 90px;
+  gap: 20px;
+}
+#five .five3 ul li{
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+  font-size: 0;
+}
+#five .five3 ul li:nth-child(1){
+  background-image: url(../img/youtube.png);
+}
+#five .five3 ul li:nth-child(2){
+  background-image: url(../img/facebook.jpg);
+}
+#five .five3 ul li:nth-child(3){
+  background-image: url(../img/instagram.jpg);
+}
