@@ -35,13 +35,14 @@ header .top nav h1 {
   font-size: 0;
 }
 header .top nav .menu {
-  gap: 50px;
+  gap: 70px;
   margin-left: 100px;
 }
 header .top nav .menu li {
   font-size: 20px;
   font-weight: bold;
-}
+  cursor: pointer;
+} 
 header .top nav .search {
   font-size: 0;
 }
@@ -115,4 +116,56 @@ header .top nav .search::after{
   height: 200px;
   background-repeat: no-repeat;
   font-size: 0;
+}
+/* gnb */
+header .gnb{
+  position: relative;
+  z-index: 1;
+}
+header .gnbback{
+  position: absolute;
+  font-size: 15px;
+  width: 100%;
+  height: 500px;
+  background-color: #fff;
+}
+header .lnb{
+  position: absolute;
+  width: 150px;
+  height: 338px;
+  display: flex;
+  top: 20px;
+} 
+header .lnb:nth-child(1){
+  right: 1020px;
+}
+header .lnb:nth-child(1)::before{
+  content: "";
+  display: inline-block;
+  width: 350px;
+  height: 200px;
+  position: absolute;
+  background-image: url(../img/bee.jpg);
+  background-repeat: no-repeat;
+  left: -395px;
+}
+header .lnb:nth-child(2){
+  right: 910px;
+}
+header .lnb:nth-child(3){
+  right: 780px;
+}
+header .lnb:nth-child(4){
+  right: 669px;
+}
+header .lnb:nth-child(5){
+  right: 521px;
+}
+header .lnb .list{
+  gap: 20px;
+  display: flex;
+  flex-direction: column;
+}
+header .lnb .list li{
+  line-height: 1.5;
 }
